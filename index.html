@@ -33,6 +33,14 @@
      a:hover { color:#ed6fa2; }
     </style>
     
+    <script type = "text/javascript">
+         <!--
+            function Redirect() {
+               window.location = "project.html";
+            }
+         //-->
+      </script>
+    
   </head>
   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
   
@@ -80,7 +88,7 @@
 
               <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
                 <li><a href="#home-section" class="nav-link">Home</a></li>
-                <li><a href="project.html" class="nav-link">Projects</a></li>
+                <li><a href="project.html" class="nav-link" onclick = "Redirect();">Projects</a></li>
                 <li><a href="#services-section" class="nav-link">Domains</a></li>
                 <li class="has-children">
                   <a href="#about-section" class="nav-link">About</a>
